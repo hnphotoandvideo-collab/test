@@ -1,0 +1,51 @@
+#list {
+  background:#961308 ;
+  padding: 5px;
+}
+
+#item {
+  background:#fff080 ;
+  padding: 5px;
+  margin: 10px 20px;
+}
+
+#menu, #menu-item{
+  margin: 0;
+  padding: 0;
+}
+
+#menu {
+  list-style: none;
+  width:100%;
+}
+ 
+#menu-item {
+  float:left;
+  width: auto;
+}
+
+a{
+  
+ background: tomato;
+ display: block;
+  font: bolt 13px sans-serif;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+h1{
+  display: block;
+}
+.images {
+  background: tomato;
+  display: flex;
+  gap: 50px;
+}
+.images img{
+  width:200px;
+  heigh: 300px;
+  object-fit:cover;
+  border-radius: 45px 0 45px 0;
+  margin: 10px;
+}
